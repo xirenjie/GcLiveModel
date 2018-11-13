@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="160dp"
+        android:orientation="horizontal"
+        android:background="@drawable/linear_border_bg"
+        android:gravity="center_horizontal"
+        android:layout_height="30dp">
+        <TextView
+            android:id="@+id/rank_text1"
+            android:layout_width="80dp"
+            android:text="周贡榜"
+            android:background="@drawable/linear_border_red_bg"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/rank_text2"
+            android:layout_width="80dp"
+            android:text="粉丝榜"
+            android:textColor="@color/room_lable_color"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/rank_swip"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rank_recy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

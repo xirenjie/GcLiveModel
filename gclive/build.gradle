@@ -1,0 +1,57 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']  /**在libs文件夹下找so文件*/
+        }
+    }
+
+}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    compile 'com.android.support:design:27.1.1'
+    compile 'com.github.bumptech.glide:glide:4.7.1'
+    implementation files('libs/pldroid-player-1.5.0.jar')
+
+    compile 'com.github.ctiao:DanmakuFlameMaster:0.9.25'
+    compile 'com.github.ctiao:ndkbitmap-armv7a:0.9.21'
+
+    compile 'org.greenrobot:eventbus:3.0.0'
+
+    compile 'com.neovisionaries:nv-websocket-client:2.2'
+    compile 'com.google.code.gson:gson:2.7'
+    compile(name:'GcIm', ext:'aar')
+
+    //net
+    compile 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+
+}

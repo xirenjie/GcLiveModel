@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dp"
+    android:background="@drawable/linear_border_bg"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/pop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/chocolate"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:text="1314"
+            android:gravity="center"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:text="一生一世"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/pop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/chocolate"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:text="520"
+            android:gravity="center"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:text="我爱你"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/pop3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/chocolate"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:text="188"
+            android:gravity="center"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:text="要抱抱"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/pop4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/chocolate"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:text="66"
+            android:gravity="center"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:text="一切顺利"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/pop5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/chocolate"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:text="30"
+            android:gravity="center"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:text="想你"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/pop6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/chocolate"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:text="10"
+            android:gravity="center"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:text="十全十美"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/pop7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/chocolate"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:text="1"
+            android:gravity="center"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:text="一心一意"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+</LinearLayout>
